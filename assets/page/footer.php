@@ -11,7 +11,7 @@
             <h3>Newsletter</h3>
 
             <div class="input-group mb-3">
-                <input type="email" class="form-control" placeholder="Recipient's username" aria-label="Recipient's username" aria-describedby="basic-addon2">
+                <input type="email" class="form-control" placeholder="exemple@nom.com" aria-label="Recipient's username" aria-describedby="basic-addon2">
                 <button type="button" class="input-group-text btn-gnl" id="basic-addon2">Je m'inscris</button>
             </div>
         </div>

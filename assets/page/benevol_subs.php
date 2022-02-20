@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
     <link rel="stylesheet" href="../css/style.css">
 
-    <title>Contact de l'association Douvanjour</title>
+    <title>Devenir bénévole</title>
 </head>
 
 <body>
@@ -73,7 +73,7 @@
 
 
         <div class="content-page before-page">
-            <h2>Formulaire d'adhésion</h2>
+            <h2>Devenir bénévole</h2>
             <form action="" method="POST" class="form-subs">
 
                 <div class="mb-3">

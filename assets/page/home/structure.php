@@ -21,7 +21,7 @@
       <p  style="font-size: 80%; text-align: justify; padding: 50px; margin-top:-110px">
         L’association compte participer, activement à la reconstruction 
         du grand-sud d’Haïti, presque totalement détruit par le 
-        séisme du 14 aout 2021.
+        séisme du 14 août 2021.
       </p>
     </div>
     </div>
@@ -30,7 +30,7 @@
     <div class="col-xl-4 col-lg-4">
     <div class="shadow">
         <h3>Notre crédo</h3>
-        <img src="./assets/images/europe.jpeg" alt="Image symbolique de la date de création de l'association Douvanjou en europe">
+        <img src="./assets/images/hand.jpeg" alt="Image symbolique de la date de création de l'association Douvanjou en europe">
         <p class="p-5"  style="text-align: justify; font-size: 80%;">
         	DOUVANJOU partage les valeurs véhiculées par l’esprit de la loi 
           de 1901 de la République française relative au contrat d’association.
@@ -53,9 +53,9 @@
     <div class="col-xl-4 col-lg-4">
     <div class="shadow">
         <h3>Notre histoire</h3>
-        <img src="./assets/images/haiti.jpeg" alt="Image symbolique de la date de création de l'association Douvanjou en europe">
+        <img src="./assets/images/histoire.jpeg" alt="Image symbolique de la date de création de l'association Douvanjou en europe">
         <p class="p-5" style="font-size: 80%; text-align: justify">
-        	Notre association est créée au lendemain du séisme du 14 aout 2021.  
+        	Notre association est créée au lendemain du séisme du 14 août 2021.  
           Après les les premières semaines d’effroi, d’émoi et de tristesse, 
           notre réflexion nous a conduit à privilégier des actions à long terme 
           dans des domaines qui nous tiennent à cœur, et dans lesquels nos 

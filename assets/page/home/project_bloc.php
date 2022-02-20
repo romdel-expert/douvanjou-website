@@ -4,18 +4,24 @@
         <div class="col-xl-6">
             <div class="row">
                 <div class="col-xl-5">
+
+                    <h3>Education</h3>
+
                     <img src="../../assets/images/enfant.png" alt="Image projet éducation">
                 </div>
 
                 <div class="col-xl-7">
-                    <h3>Education</h3>
 
                     <p>
-                        Lorem Ipsum est simplement un texte factice de l'industrie 
+                        Notre premier projet sera la reconstruction d'une école de 
+                        la cinquième section communale de la Sucrerie Henry detruite 
+                        par le séisme du 14 août 2021.
+
+                        <!-- Lorem Ipsum est simplement un texte factice de l'industrie 
                         de l'impression et de la composition. Lorem Ipsum est le 
                         texte factice standard de l'industrie depuis les années 
                         1500, lorsqu'un imprimeur inconnu a pris une galère de 
-                        caractères et l'a brouillé pour en faire un livre sp 
+                        caractères et l'a brouillé pour en faire un livre sp  -->
                     </p>
 
 
