@@ -25,7 +25,7 @@
                     </p>
 
 
-                    <a href="./assets/page/form_given.php" class="btn btn-gnl">Je soutiens ce projet</a>
+                    <a href="<?= "../../index.php?action=form_given" ?>" class="btn btn-gnl">Je soutiens ce projet</a>
                 </div>
             </div>
         </div>

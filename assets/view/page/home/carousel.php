@@ -28,6 +28,6 @@
 
 
     <div class="bloc-button-carousel">
-        <a href="./assets/page/subscribe.php" class="btn btn-top-header"> Je deviens adhérent</a>
+        <a href="<?= "../../index.php?action=subscribe" ?>" class="btn btn-top-header"> Je deviens adhérent</a>
     </div>
 </div>

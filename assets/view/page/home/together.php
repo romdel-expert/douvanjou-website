@@ -7,7 +7,7 @@
             <h3>Soutenez nos actions</h3>
             <ul>
                 <li>
-                    <a href="./assets/page/form_given.php">
+                    <a href="<?= "../../index.php?action=form_given" ?>">
                         <i class="bi bi-currency-euro"></i>
                         <span>En faisant un don</span>
                     </a>
@@ -15,7 +15,7 @@
 
 
                 <li>
-                    <a href="./assets/page/subscribe.php">
+                    <a href="<?= "../../index.php?action=subscribe" ?>">
                         <i class="bi bi-person"></i>
                         <span>En devenant adhérent</span>
                     </a>
@@ -23,7 +23,7 @@
 
 
                 <li>
-                    <a href="./assets/page/benevol_subs.php">
+                    <a href="<?= "../../index.php?action=benevol" ?>">
                         <i class="bi bi-hand-index-thumb"></i>
                         <span>En devenant bénévole</span>
                     </a>
@@ -31,7 +31,7 @@
 
 
                 <li>
-                    <a href="./assets/page/collab_subs.php">
+                    <a href="<?= "../../index.php?action=collab" ?>">
                         <i class="bi bi-people"></i>
                         <span>En devenant notre collaborateur</span>
                     </a>
@@ -68,7 +68,7 @@
                 Soyez le prochain membre
             </p>
 
-            <a href="./assets/page/subscribe.php" class="btn btn-gnl">
+            <a href="<?= "../../index.php?action=subscribe" ?>" class="btn btn-gnl">
                 En devenant adhérent
             </a>
         </div>

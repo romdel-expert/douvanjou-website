@@ -1,76 +1,7 @@
-<!-- partie à anlever -->
-<!DOCTYPE html>
-<html lang="fr">
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <?php $title="Formulaire pour devenir collaborateur ou partenaire de l'association Douvanjou"; ?>
 
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200&family=Candal&family=Kaushan+Script&family=Open+Sans+Condensed:wght@300&family=PT+Sans+Narrow&family=Playfair+Display&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
-    <link rel="stylesheet" href="../css/style.css">
-
-    <title>Devenir collaborateur</title>
-</head>
-
-<body>
-
-    <header>
-        <div class="top-header">
-            <div class="logo">
-                <a href="../../index.php">
-                    <img src="../images/logo.png" alt="Le logo de Douvanjour" />
-                </a>
-            </div>
-
-            <div class="bloc-btn">
-                <a href="form_given.php" class="btn btn-top-header">Je fais un don</a>
-            </div>
-        </div>
-
-        <div class="bottom-header">
-            <ul>
-                <li>
-                    <a href="">L'association</a>
-                </li>
-                <li>
-                    <a href="">Notre organisation</a>
-                </li>
-                <li>
-                    <a href="">Actualité</a>
-                </li>
-                <li>
-                    <a href="">Nos projets</a>
-                </li>
-                <li>
-                    <a href="contact.php">Contact</a>
-                </li>
-                <li>
-                    <a href="">Adhésion</a>
-                </li>
-            </ul>
-        </div>
-    </header>
-
-
-    <main>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    <?php ob_start(); ?>
 
         <div class="content-page before-page">
             <h2>Devenir collaborateur de Douvanjou</h2>
@@ -185,27 +116,6 @@
 
 
 
+        <?php $content=ob_get_clean(); ?>
 
-
-
-
-
-
-
-
-
-
-
-        <!-- a enlever -->
-
-    </main>
-
-
-    <footer>
-        <?php include('footer.php'); ?>
-    </footer>
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-</body>
-
-</html>
+        <?php require "./assets/view/gabarit.php" ?>
