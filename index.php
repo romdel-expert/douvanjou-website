@@ -49,9 +49,13 @@
         gotoToAcountPage();
 
       }elseif ($action=="benevol") {
+
         gotoBenevolSubsForm();
+
       }elseif ($action=="collab") {
+
         gotoFormSubsCollaborateur();
+        
       } else {
 
         countMembers();

@@ -225,6 +225,15 @@ h3{
     background-color: rgb(210, 233, 240);
 }
 
+.choice-don{
+    border: 1px solid rgb(170, 163, 163);
+    color: rgb(122, 125, 128);
+}
+
+.choice-don .form-check{
+    margin: 10px 0;
+}
+
 .content-page{
     border: 1px solid transparent;
     background-color: rgb(210, 233, 240); 
