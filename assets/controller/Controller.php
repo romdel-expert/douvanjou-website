@@ -270,7 +270,7 @@
      * la base de données
      */
     function addMember($fName, $lName, $sex, $email, $tel, $adr, $prof, $regl_int){
-        if (!isEmailExist($email)) {
+        if ($fName!="" && $lName!="" && $sex!="" &&  $email!="" &&  $tel!="" &&  $adr!="" &&  $prof!="" &&  $regl_int!="") {
             insertMember($fName, $lName, $sex, $email, $tel, $adr, $prof, $regl_int);
 
             $to=$email;
@@ -282,13 +282,31 @@
                     ."L'équipe de Douvanjou";
 
             sendContactMail($to, $subject, $message);
-            gotoPayPage();
-            // header("Location: ./index.php?action=pay_page");
-        } else {
-            $messErrSubs="Attestion une inscription est déjà enregistrée avec cette adresse e-mail.";
-            require "./assets/view/page/subscribe.php";
-        }
-        
+            header("Location: ../../index.php?action=pay_page");
+            
+        } 
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+    /**
+     * Undocumented function
+     *
+     * @param [type] $email
+     * @return boolean
+     * Vérification de l'existance de l'adresse email
+     */
+    function isEmailExistController($email){
+        return isEmailExist($email);
     }
 
 

@@ -565,19 +565,31 @@ footer h2{
     margin: auto;
 }
 
-.success-subs{
+.success-subs, .commit-member-page{
     border: 1px solid transparent;
     text-align: center;
     margin: 60px 0 0px 0;
     padding: 40px;
+}
+
+.commit-member-page{
+    color: rgb(158, 85, 25);
+    background-color: rgb(241, 225, 207);
+}
+.success-subs{
     color: rgb(25, 158, 65);
     background-color: rgb(207, 241, 207);
 }
 
-.success-subs p{
+.success-subs p, .commit-member-page p{
    margin: 30px 0;
-   color: rgb(25, 158, 65);
 }
+.success-subs p{
+    color: rgb(25, 158, 65);
+ }
+ .commit-member-page p{
+     color: rgb(158, 100, 25);
+  }
 
 .error-page{
     border: 1px solid transparent;

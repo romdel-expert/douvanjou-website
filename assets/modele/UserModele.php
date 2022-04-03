@@ -181,16 +181,34 @@
             $result=mysqli_query($db, $query) or die(mysqli_error($db).$query);
 
             if($result->num_rows>0){
-                $emailU=$result->fetch_assoc()["email"];
-                if ($emailU==$email) {
-                    $isEmail=true;
-                };
+                $isEmail=true;
             }
 
             $db->close();
         }
 
         return $isEmail;
+    }
+
+
+
+
+
+
+
+
+
+
+    function getPriceCommitModele(){
+        $query="SELECT `e_mail` as email FROM `user` WHERE `e_mail`='$email'";
+        $db=connecDb();
+
+        $result=mysqli_query($db, $query) or die(mysqli_error($db).$query);
+
+        if($result->num_rows>0){
+            $isEmail=true;
+        }
+
     }
 
 

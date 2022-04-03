@@ -37,7 +37,11 @@
 
                     $regl_int=$_POST['regl_int'];
                     if ($regl_int==1) {
-                        addMember($fName, $lName, $sex, $email, $phone, $adrU, $prof, $regl_int);
+                        if (!isEmailExistController($_POST['email'])) {
+                            addMember($fName, $lName, $sex, $email, $phone, $adrU, $prof, $regl_int);
+                        } else {
+                            $messErrSubs="Attention, un membre est déjà inscrit avec cette même adresse e-mail";
+                        }
                     } else {
                         
                         $messErrSubs="Il faut obligatoirement accepter le règlement intérieur avant de vous enregistrer";
