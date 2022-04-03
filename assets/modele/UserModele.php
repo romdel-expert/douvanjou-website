@@ -200,7 +200,7 @@
 
 
     function getPriceCommitModele(){
-        $query="SELECT `e_mail` as email FROM `user` WHERE `e_mail`='$email'";
+        $query="";
         $db=connecDb();
 
         $result=mysqli_query($db, $query) or die(mysqli_error($db).$query);
