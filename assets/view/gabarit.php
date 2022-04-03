@@ -30,6 +30,7 @@
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script  src = "https://maps.googleapis.com/maps/api/js?v=3.exp&libraries=places&key=AIzaSyAMlqyXWE0E5lVC1U9oGpRFY_-tNu14QyU" ></script>
     <script src="./assets/js/script.js"></script>
   </body>
 </html>

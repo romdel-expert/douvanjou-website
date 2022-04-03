@@ -56,17 +56,24 @@
 
         gotoFormSubsCollaborateur();
         
+      }elseif ($action=="success_sub") {
+        gotoSuccessSubscribe();
       } else {
 
         countMembers();
       }
       
     } else {
+
       countMembers();
+
     }
     
-  } catch (\Throwable $th) {
-    //throw $th;
+  } catch (Exception $e) {
+
+    $message=$e->getMessage();
+    sendError($message);
+
   }
 
 ?>

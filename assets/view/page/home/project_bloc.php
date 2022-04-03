@@ -33,10 +33,13 @@
 
 
         <div class="col-xl-6">
-            <video 
+            <!-- <video 
                 controls="controls" 
                 poster="../../assets/images/poster.jpeg"
-                autoplay="autoplay"> 
+                autoplay="autoplay">  -->
+            <video 
+                controls="controls" 
+                poster="../../assets/images/poster.jpeg"> 
 
                 <source src="../../assets/video/video-ecole-1.mp4"></source>
                 Il faut mettre votre navigateur à jour pour jouer cette video

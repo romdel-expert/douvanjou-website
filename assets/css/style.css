@@ -195,6 +195,42 @@ h3{
     padding: 10px 30px;
 }
 
+.modal-gl{
+    /* border: 0px solid transparent; */
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0; 
+    z-index: 10;
+    background-color: rgba(0,0,0,.5);
+    /* padding: 0; */
+}
+
+.content-text-reg-int{
+    position: fixed;
+    top: 40px;
+    bottom: 100px;
+    padding: 70px;
+    overflow: auto;
+}$
+.text-blue{
+    color: rgb(65, 96, 236);
+}
+
+.regl-int, .content-text-reg-int, .btn-rg-int{
+    background-color: rgb(255, 255, 255);
+    /* width: 80%; */
+}
+
+.btn-rg-int{
+    border: 0px solid black;
+    position: fixed;
+    bottom: 0px;
+    height: 100px;
+    width: 100%;
+    padding: 20px;
+}
 
 .p-1{
     padding: 10px;
@@ -438,7 +474,9 @@ h3{
 
 
 
-
+.btn-show-rgl-int{
+    color: rgb(23, 122, 235);
+}
 
 
 
@@ -525,4 +563,32 @@ footer h2{
 .form-subs{
     width: 50%;
     margin: auto;
+}
+
+.success-subs{
+    border: 1px solid transparent;
+    text-align: center;
+    margin: 60px 0 0px 0;
+    padding: 40px;
+    color: rgb(25, 158, 65);
+    background-color: rgb(207, 241, 207);
+}
+
+.success-subs p{
+   margin: 30px 0;
+   color: rgb(25, 158, 65);
+}
+
+.error-page{
+    border: 1px solid transparent;
+    text-align: center;
+    margin: 60px 0 0px 0;
+    padding: 40px;
+    color: rgb(179, 31, 31);
+    background-color: rgb(236, 181, 190);
+}
+
+.error-page p{
+   margin: 30px 0;
+   color: rgb(179, 31, 31);
 }

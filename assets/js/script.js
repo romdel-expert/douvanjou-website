@@ -22,6 +22,7 @@ document.getElementById("form-don-complete").style.cssText="display: none";
 
 
 
+
 function getChoiceFormDon(){
     let choice=document.querySelector("input[type='radio'][name='don_choice']:checked").value;
     
@@ -44,5 +45,44 @@ function getChoiceFormDon(){
         document.getElementById("comon-bloc-form-don").style.cssText="display: bloc";
         document.getElementById("form-don-complete").style.cssText="display: bloc";
     }
-    console.log(choice);
+    // console.log(choice);
 }
+
+
+
+
+
+
+
+
+function cleanMessEmail(){
+    document.getElementById("errEmail").innerHTML="";
+}
+
+
+
+
+
+
+
+function showRegInt(){
+   let rglInt=document.querySelector("div[class='modal-gl']");
+   rglInt.removeAttribute('hidden');
+}
+
+
+function hideRegInt(resp){
+    if (resp==="YES") {
+        document.getElementById("regl_int").setAttribute('value',true);
+        document.getElementById("regl_int").setAttribute('checked',true);
+        let rglInt=document.querySelector("div[class='modal-gl']");
+        rglInt.setAttribute('hidden',true);
+    } else {
+        document.getElementById("regl_int").removeAttribute('checked');
+        let rglInt=document.querySelector("div[class='modal-gl']");
+        rglInt.setAttribute('hidden',true);
+    }
+ }
+
+
+
