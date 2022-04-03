@@ -34,7 +34,7 @@
                     démissionnaire.
                 </li>
                 <li>
-                    L’exclusion d’un membre peut être prononcée par  le conseil, pour
+                    L’exclusion d’un membre peut être prononcée par le conseil, pour
                     motif grave. Sont notamment réputés constituer des motifs
                     graves :
 
@@ -48,7 +48,7 @@
                         </li>
                         <li>
                             toute action de nature à porter préjudice, directement ou
-                            indirectement, aux activités de   ’association ou à sa réputation.
+                            indirectement, aux activités de  ’association ou à sa réputation.
                         </li>
                     </ul>
 

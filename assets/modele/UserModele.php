@@ -9,7 +9,7 @@
 
 
 
-    define('TYPE_USER','ADHERENT');
+    define('TYPE_ADHERENT','ADHERENT');
 
 
 
@@ -38,15 +38,23 @@
             $pwd=null;
             $date_add=date('Y-m-d H:i:s');
             $date_edit=date('Y-m-d H:i:s');
-            $type_u=intval(getTypeUseryLabel(TYPE_USER));
+            $type_u=intval(getTypeUseryLabel(TYPE_ADHERENT));
+            // $dateExp=new DateTime(date('Y-m-d H:i:s'));
+            // $dateExp->add(new DateInterval('P365D'));
+            // $date_exp=$dateExp->format('Y-m-d H:i:s');
+            $date_exp=date('Y-m-d H:i:s');
+            $payed=0;
 
-            $query= "INSERT INTO `user`(`id_user`, `e_mail`, `phone`, `adress`, `level`, `password`, `date_add`, `date_edit`, `acpt_rglt_int`, `type`) VALUES (0, '$email', '$tel', '$adr', '$responsability', '$pwd', '$date_add', '$date_edit', $regl_int, '$type_u')";
-
+ 
+            $query="INSERT INTO `user`(`id_user`, `e_mail`, `phone`, `adress`, `level`, `password`, `date_add`, `date_edit`, `acpt_rglt_int`, `date_exp`, `payed`, `type`) 
+                            VALUES (0, '$email', '$tel', '$adr', '$responsability', '$pwd', '$date_add', '$date_edit', '$regl_int','$date_exp','$payed','$type_u')";
             $result=mysqli_query($db, $query) or die(mysqli_error($db).$query);
 
             if($result){
                 $id=mysqli_insert_id($db);
-                insertPerson($fName, $lName, $sex, $prof, $id);
+                if ($id!="" && $id!=null) {
+                    insertPerson($fName, $lName, $sex, $prof, $id);
+                }
             }
             $db->close();
         }
@@ -183,5 +191,19 @@
         }
 
         return $isEmail;
+    }
+
+
+
+
+
+
+
+
+
+
+
+    function payCommitModele($idUser){
+        echo "pay modele";
     }
 ?>

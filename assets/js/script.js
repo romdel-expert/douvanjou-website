@@ -73,7 +73,7 @@ function showRegInt(){
 
 function hideRegInt(resp){
     if (resp==="YES") {
-        document.getElementById("regl_int").setAttribute('value',true);
+        document.getElementById("regl_int").setAttribute('value',1);
         document.getElementById("regl_int").setAttribute('checked',true);
         let rglInt=document.querySelector("div[class='modal-gl']");
         rglInt.setAttribute('hidden',true);

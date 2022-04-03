@@ -36,9 +36,8 @@
                     $prof=str_replace("'", "\'", $_POST['prof']);
 
                     $regl_int=$_POST['regl_int'];
-                    if ($regl_int==true) {
+                    if ($regl_int==1) {
                         addMember($fName, $lName, $sex, $email, $phone, $adrU, $prof, $regl_int);
-                        // cleanFields();
                     } else {
                         
                         $messErrSubs="Il faut obligatoirement accepter le règlement intérieur avant de vous enregistrer";
@@ -47,26 +46,6 @@
 
                     $messErrSubs="Il faut remplir tous les champs obligatoires et accepter le règlemennt intérieur";
                 } 
-
-
-
-                // function cleanFields(){
-                //     $fName="";
-
-                //     $lName="";
-
-                //     $sex="";
-
-                //     $email="";
-
-                //     $phone="";
-
-                //     $adrU="";
-
-                //     $prof="";
-
-                //     $regl_int=false;
-                // }
             ?>
         </div>
 
@@ -129,7 +108,7 @@
 
                 <div class="form-check">
                     <input class="form-check-input" type="checkbox" name="regl_int" id="regl_int"
-                    onchange="cleanMessEmail()" value=true>
+                    onchange="cleanMessEmail()" value=1>
                     <label class="form-check-label" for="regl_int">
                         J'accepte Règlement Intérieur d'Association Douvanjou
                     </label>

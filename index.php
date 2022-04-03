@@ -12,7 +12,7 @@
       $action=$_GET['action'];
       if ($action=="home") {
 
-        countMembers();
+        gotoHomePage();
 
       }elseif($action=="form_given"){
 
@@ -58,14 +58,16 @@
         
       }elseif ($action=="success_sub") {
         gotoSuccessSubscribe();
+      }elseif ($action=="pay_page") {
+        gotoPayPage();
       } else {
 
-        countMembers();
+        gotoHomePage();
       }
       
     } else {
 
-      countMembers();
+      gotoHomePage();
 
     }
     
