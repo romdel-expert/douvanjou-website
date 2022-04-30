@@ -12,13 +12,14 @@ window.onscroll=function(){
 }
 
 
-
+// alert("bonjour");
 
 document.getElementById("form-don-adherent").style.cssText="display: none";
 document.getElementById("form-don-usualy").style.cssText="display: none";
 document.getElementById("form-don").style.cssText="display: none";
 document.getElementById("comon-bloc-form-don").style.cssText="display: none";
 document.getElementById("form-don-complete").style.cssText="display: none";
+
 
 
 
@@ -83,6 +84,25 @@ function hideRegInt(resp){
         rglInt.setAttribute('hidden',true);
     }
  }
+
+
+
+ function closeMenu(){
+    let block = document.getElementById("bottom-header1");
+    // block.setAttribute("hidden",true);
+    // block.style.display="none";
+    block.style.cssText="display: none";
+    // console.log(block);
+ }
+
+
+
+ function openMenu(){
+    let block = document.getElementById("bottom-header1");
+    block.setAttribute("style","display:block")
+    // block.setAttribute("hidden",false);
+    // console.log(block);
+}
 
 
 

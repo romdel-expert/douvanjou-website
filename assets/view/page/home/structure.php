@@ -1,5 +1,5 @@
 <div class="row sect-asso-home">
-    <div class="col-xl-4 col-lg-4">
+    <div class="col-xl-4 col-lg-6">
     <div class="shadow">
         <h3>Qui sommes-nous?</h3>
         <img src="./assets/images/calendar.jpeg" alt="Image symbolique de la date de création de l'association Douvanjou en europe">
@@ -27,7 +27,7 @@
     </div>
 
 
-    <div class="col-xl-4 col-lg-4">
+    <div class="col-xl-4 col-lg-6">
     <div class="shadow">
         <h3>Notre crédo</h3>
         <img src="./assets/images/hand.jpeg" alt="Image symbolique de la date de création de l'association Douvanjou en europe">
@@ -50,7 +50,7 @@
     </div>
 
 
-    <div class="col-xl-4 col-lg-4">
+    <div class="col-xl-4 col-lg-6">
     <div class="shadow">
         <h3>Notre histoire</h3>
         <img src="./assets/images/histoire.jpeg" alt="Image symbolique de la date de création de l'association Douvanjou en europe">

@@ -1,16 +1,16 @@
 <div class="projet-doing container-fluid p-6">
     <h2>Nos projets en cours</h2>
     <div class="row">
-        <div class="col-xl-6">
+        <div class="col-xl-6 col-lg-6  col-md-12">
             <div class="row">
-                <div class="col-xl-5">
+                <div class="col-xl-5 col-lg-5 col-md-5">
 
                     <h3>Education</h3>
 
                     <img src="../../assets/images/enfant.png" alt="Image projet éducation">
                 </div>
 
-                <div class="col-xl-7">
+                <div class="col-xl-7 col-lg-7 col-md-7">
 
                     <p>
                         Notre premier projet sera la reconstruction d'une école de 
@@ -32,7 +32,7 @@
 
 
 
-        <div class="col-xl-6">
+        <div class="col-xl-6  col-lg-6  col-md-12">
             <!-- <video 
                 controls="controls" 
                 poster="../../assets/images/poster.jpeg"

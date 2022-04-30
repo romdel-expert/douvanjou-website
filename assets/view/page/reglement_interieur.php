@@ -136,10 +136,10 @@
         </p>
     </div>
     <div class="row btn-rg-int">
-        <div class="text-center col-xl-6 col-lg-6 col-md-6">
+        <div class="text-center col-6">
             <button type="button" class="btn btn-success" onclick="hideRegInt('YES')">Accepter</button>
         </div>
-        <div class="text-center col-xl-6 col-lg-6 col-md-6">
+        <div class="text-center col-6 ">
             <button type="button" class="btn btn-danger" onclick="hideRegInt('NO')">Refuser</button>
         </div>
     </div>
