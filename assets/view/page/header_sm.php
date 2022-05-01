@@ -22,23 +22,23 @@
     </d iv>
 
     <ul>
-        <li  onclick="closeMenu()">
-            <a href="<?= "../index.php?action=the_asso" ?>">L'association</a>
+        <li>
+            <a href="<?= "../index.php?action=the_asso" ?>"   onclick="closeMenu()">L'association</a>
         </li>
-        <li  onclick="closeMenu()">
-            <a href="<?= "../index.php?action=our_org" ?>">Notre organisation</a>
+        <li>
+            <a href="<?= "../index.php?action=our_org" ?>"   onclick="closeMenu()">Notre organisation</a>
         </li>
-        <li  onclick="closeMenu()">
-            <a href="<?= "../index.php?action=actualite" ?>">Actualité</a>
+        <li>
+            <a href="<?= "../index.php?action=actualite" ?>"   onclick="closeMenu()">Actualité</a>
         </li>
-        <li  onclick="closeMenu()">
-            <a href="<?= "../index.php?action=our_projects" ?>">Nos projets</a>
+        <li>
+            <a href="<?= "../index.php?action=our_projects" ?>"   onclick="closeMenu()">Nos projets</a>
         </li>
-        <li  onclick="closeMenu()">
-            <a href="<?= "../index.php?action=contact" ?>">Contact</a>
+        <li>
+            <a href="<?= "../index.php?action=contact" ?>"   onclick="closeMenu()">Contact</a>
         </li>
-        <li  onclick="closeMenu()">
-            <a href="<?= "../index.php?action=subscribe" ?>">Adhésion</a>
+        <li>
+            <a href="<?= "../index.php?action=subscribe" ?>"   onclick="closeMenu()">Adhésion</a>
         </li>
     </ul>
 </div>
