@@ -79,7 +79,7 @@
         <p>
         <ol>
             <li>
-                Votes des membres présents Les membres présents votent à main
+                Votes des membres présentsLes membres présents votent à main
                 levée. Toutefois, un scrutin secret peut être demandé par le conseil ou
                 50%+ 1 des membres présents.
             </li>

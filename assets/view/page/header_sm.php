@@ -11,14 +11,15 @@
 
     <div class="bloc-btn">
         <a href="<?= "../index.php?action=acount" ?>" class="user-header"><i class="bi bi-person"></i></a>
-        <a href="<?= "../index.php?action=form_given" ?>" class="btn btn-top-header">Je fais un don</a>
+        <a href="<?= "../index.php?action=form_given" ?>" class="btn btn-top-header" id="don-lg">Je fais un don</a>
+        <a href="<?= "../index.php?action=form_given" ?>" class="btn btn-top-header" id="don-xm">Don</a>
     </div>
 </div>
 
 <div class="bottom-header" id="bottom-header1" style="display: none;">
     <div class="menu-icon1" onClick="closeMenu()">
         <i class="bi bi-x-lg"></i>
-</div>
+    </d iv>
 
     <ul>
         <li  onclick="closeMenu()">
