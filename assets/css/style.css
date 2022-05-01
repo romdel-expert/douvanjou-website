@@ -112,12 +112,6 @@
 
   header .bottom-header ul li:hover {
     border-bottom: 3px solid rgb(110, 122, 165);
-    padding: 15px 20px 10px 20px;
-    cursor: pointer;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    font-size: 0.8em;
-    color: rgb(61, 70, 107);
   }
 
   header .bottom-header ul li a {
@@ -721,6 +715,7 @@
       z-index: 10;
       padding: 0;
       font-family: "Kaushan Script", cursive;
+      overflow: scroll;
     }
     header .bottom-header ul {
       list-style: none;
@@ -737,7 +732,7 @@
       cursor: pointer;
       text-transform: uppercase;
       letter-spacing: 1px;
-      font-size: 0.8em;
+      font-size: 50%;
       color: rgb(35, 47, 97);
     }
   
@@ -747,7 +742,6 @@
       cursor: pointer;
       text-transform: uppercase;
       letter-spacing: 1px;
-      font-size: 0.8em;
       color: rgb(61, 70, 107);
     }
   
@@ -1229,7 +1223,7 @@
   
   
   
-  @media screen and  (max-width: 767px) and  (min-width: 736px){ */
+  @media screen and  (max-width: 767px) and  (min-width: 736px){ 
       * {
         margin: 0;
         padding: 0;
@@ -1337,6 +1331,7 @@
         z-index: 10;
         padding: 0;
         font-family: "Kaushan Script", cursive;
+        overflow: scroll;
       }
       header .bottom-header ul {
         list-style: none;
@@ -1353,7 +1348,7 @@
         cursor: pointer;
         text-transform: uppercase;
         letter-spacing: 1px;
-        font-size: 0.8em;
+        font-size: 30%;
         color: rgb(35, 47, 97);
       }
     
@@ -1363,7 +1358,6 @@
         cursor: pointer;
         text-transform: uppercase;
         letter-spacing: 1px;
-        font-size: 0.8em;
         color: rgb(61, 70, 107);
       }
     
@@ -1965,6 +1959,7 @@
         z-index: 10;
         padding: 0;
         font-family: "Kaushan Script", cursive;
+        overflow: scroll;
       }
       header .bottom-header ul {
         list-style: none;
@@ -1981,7 +1976,7 @@
         cursor: pointer;
         text-transform: uppercase;
         letter-spacing: 1px;
-        font-size: 0.8em;
+        font-size: 20%;
         color: rgb(35, 47, 97);
       }
     
@@ -1991,7 +1986,6 @@
         cursor: pointer;
         text-transform: uppercase;
         letter-spacing: 1px;
-        font-size: 0.8em;
         color: rgb(61, 70, 107);
       }
     
@@ -2499,6 +2493,13 @@
           margin: 40px 40px;
           cursor: pointer;
           color: rgb(78, 114, 192);
+
+          border: 1px solid transparent;
+          position: absolute;
+          height: 60px;
+          top: 0px;
+          right: 0;
+          left: 0;
       }
 
       #don-lg{
@@ -2583,13 +2584,12 @@
         z-index: 10;
         padding: 0;
         font-family: "Kaushan Script", cursive;
+        overflow: scroll;
       }
       header .bottom-header ul {
         list-style: none;
         display: block;
         justify-content: center;
-        height: 50px;
-        margin: 40px 40px;
         padding: 0;
       }
     
@@ -2599,7 +2599,7 @@
         cursor: pointer;
         text-transform: uppercase;
         letter-spacing: 1px;
-        font-size: 0.8em;
+        font-size: 20%;
         color: rgb(35, 47, 97);
       }
     
@@ -2609,7 +2609,6 @@
         cursor: pointer;
         text-transform: uppercase;
         letter-spacing: 1px;
-        font-size: 0.8em;
         color: rgb(61, 70, 107);
       }
     
@@ -3201,6 +3200,7 @@
         z-index: 10;
         padding: 0;
         font-family: "Kaushan Script", cursive;
+        overflow: scroll;
       }
       header .bottom-header ul {
         list-style: none;
@@ -3217,7 +3217,7 @@
         cursor: pointer;
         text-transform: uppercase;
         letter-spacing: 1px;
-        font-size: 0.8em;
+        font-size: 20%;
         color: rgb(35, 47, 97);
       }
     
@@ -3227,7 +3227,6 @@
         cursor: pointer;
         text-transform: uppercase;
         letter-spacing: 1px;
-        font-size: 0.8em;
         color: rgb(61, 70, 107);
       }
     
@@ -3819,6 +3818,7 @@
         z-index: 10;
         padding: 0;
         font-family: "Kaushan Script", cursive;
+        overflow: scroll;
       }
       header .bottom-header ul {
         list-style: none;
@@ -3835,8 +3835,9 @@
         cursor: pointer;
         text-transform: uppercase;
         letter-spacing: 1px;
-        font-size: 0.8em;
+        font-size: 20%;
         color: rgb(35, 47, 97);
+        overflow-y: scroll;
       }
     
       header .bottom-header ul li:hover {
@@ -3845,7 +3846,6 @@
         cursor: pointer;
         text-transform: uppercase;
         letter-spacing: 1px;
-        font-size: 0.8em;
         color: rgb(61, 70, 107);
       }
     

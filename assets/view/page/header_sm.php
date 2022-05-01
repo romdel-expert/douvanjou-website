@@ -16,7 +16,7 @@
     </div>
 </div>
 
-<div class="bottom-header" id="bottom-header1" style="display: none;">
+<div class="bottom-header" id="bottom-header1" style="display: block;">
     <div class="menu-icon1" onClick="closeMenu()">
         <i class="bi bi-x-lg"></i>
     </d iv>
