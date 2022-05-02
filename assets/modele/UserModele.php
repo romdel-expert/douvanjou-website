@@ -39,10 +39,10 @@
             $date_add=date('Y-m-d H:i:s');
             $date_edit=date('Y-m-d H:i:s');
             $type_u=intval(getTypeUseryLabel(TYPE_ADHERENT));
-            // $dateExp=new DateTime(date('Y-m-d H:i:s'));
-            // $dateExp->add(new DateInterval('P365D'));
-            // $date_exp=$dateExp->format('Y-m-d H:i:s');
-            $date_exp=date('Y-m-d H:i:s');
+            $dateExp=new DateTime(date('Y-m-d H:i:s'));
+            $dateExp->add(new DateInterval('P365D'));
+            $date_exp=$dateExp->format('Y-m-d H:i:s');
+            // $date_exp=date('Y-m-d H:i:s');
             $payed=0;
 
  

@@ -282,7 +282,8 @@
                     ."L'équipe de Douvanjou";
 
             sendContactMail($to, $subject, $message);
-            header("Location: ../../index.php?action=pay_page");
+            // header("Location: ../../index.php?action=pay_page");
+            require_once './assets/view/page/payPage.php';
             
         } 
     }
