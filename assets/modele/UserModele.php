@@ -222,6 +222,17 @@
 
 
     function payCommitModele($idUser){
-        echo "pay modele";
+
+        if ( $idUser !="" ) {
+
+            $val = 1;
+
+            $query="UPDATE `user` SET `payed`='$val' WHERE `id_user`='$idUser'";
+            $db=connecDb();
+
+            $result=mysqli_query($db, $query) or die(mysqli_error($db).$query);
+
+            $db->close();
+        }
     }
 ?>

@@ -5,16 +5,16 @@
 
 
     function connecDb(){
-        // $host="localhost";
-        // $dbName="douvanjou";
-        // $user="root";
-        // $password="root";
+        $host="localhost";
+        $dbName="douvanjou";
+        $user="root";
+        $password="root";
 
 
-        $host="db5006770252.hosting-data.io";
-        $dbName="dbs5600935";
-        $user="dbu581436";
-        $password="Douvanjou2021*";
+        // $host="db5006770252.hosting-data.io";
+        // $dbName="dbs5600935";
+        // $user="dbu581436";
+        // $password="Douvanjou2021*";
 
 
         // try {
