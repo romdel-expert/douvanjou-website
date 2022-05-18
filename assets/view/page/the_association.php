@@ -5,17 +5,16 @@
 
 
 <section class="content-page before-page container-fluid p-6">
-    <h1 class="text-center bgd-fade p-3 text-blue"
-        style="text-transform: uppercase; font-weight: normal; font-size: 200%;">
+    <h1 class="text-center bgd-fade p-3 text-blue" style="text-transform: uppercase; font-weight: normal; font-size: 200%;">
         L'association
     </h1>
 
     <div class="row asso p-5">
-        <div class="col-xl-4 col-lg-4">
+        <div class="col-xl-4 col-lg-4 col-md-6">
             <h5>Nos missions</h5>
 
             <p style="text-align: justify;">
-                Créée le 29/11/2021 l’association DOUVANJOU est une association à
+                Créée le <b>29/11/2021</b> l’association DOUVANJOU est une association à
                 but non-lucratif, apolitique, et laïque.
             </p>
             <p style="text-align: justify;">
@@ -64,12 +63,12 @@
 
 
 
-        <div class="col-xl-4 col-lg-4">
+        <div class="col-xl-4 col-lg-4 col-md-6">
             <h5>Notre premier projet</h5>
             <p style="text-align: justify;">
                 L’association travaille actuellement à la reconstruction de l’école de
                 la cinquième (5è) section communale de la Sucrerie Henri,
-                totalement détruite par le séisme du 14 aout 2021. L’école
+                totalement détruite par le séisme du <b>14 aout 2021</b>. L’école
                 accueillait 476 élèves soit 270 élèves en primaire et 206 au
                 secondaire.
             </p>
@@ -100,7 +99,7 @@
 
 
 
-        <div class="col-xl-4 col-lg-4">
+        <div class="col-xl-4 col-lg-4 col-md-6">
             <h5>Nos domaines d’intervention</h5>
             <p style="text-align: justify;">
                 Nos champs d’intervention sont :
@@ -151,31 +150,38 @@
             </p>
         </div>
 
-        <div class="col-12">
+        <div class="col-xl-12 col-lg-12">
             <h5>Nos valeurs</h5>
 
-            <p style="text-align: justify;">
-                Douvanjou partage les valeurs véhiculées par l’esprit de la loi de
-                1901 de la république française relative au contrat d’association, et
-                croit en celles à l’origine de sa fondation.
-            </p>
+            <div class="row">
+                <div class="col-xl-5 col-lg-5 col-md-4">
+                    <img src="/assets/images/img-valeur.jpeg" alt="" srcset="">
+                </div>
+                <div class="col-xl-7 col-lg-7 col-md-8">
+                    <p style="text-align: justify;">
+                        Douvanjou partage les valeurs véhiculées par l’esprit de la loi de
+                        1901 de la république française relative au contrat d’association, et
+                        croit en celles à l’origine de sa fondation.
+                    </p>
 
-            <p style="text-align: justify;">
-                Notre dénomination : « Douvanjou », mot créole signifiant « l’aube »
-                ainsi que notre logo, représenté par le pic MACAYA et un soleil
-                levant, définissent ce en quoi nous croyons le plus profondément.
-                Nous croyons, en effet, à l’éclosion d’une nouvelle Haïti.
-            </p>
+                    <p style="text-align: justify;">
+                        Notre dénomination : « Douvanjou », mot créole signifiant « l’aube »
+                        ainsi que notre logo, représenté par le pic MACAYA et un soleil
+                        levant, définissent ce en quoi nous croyons le plus profondément.
+                        Nous croyons, en effet, à l’éclosion d’une nouvelle Haïti.
+                    </p>
 
-            <p style="text-align: justify;">
-                Pour que cette croyance ne reste pas un vœu pieux, notre association
-                et nos membres s’engagent à AGIR, au quotidien, pour apporter notre
-                pierre, aussi modeste soit-elle à cet immense chantier.
-                Nos actions sont guidées par des valeurs de :
-            </p>
+                    <p style="text-align: justify;">
+                        Pour que cette croyance ne reste pas un vœu pieux, notre association
+                        et nos membres s’engagent à AGIR, au quotidien, pour apporter notre
+                        pierre, aussi modeste soit-elle à cet immense chantier.
+                        Nos actions sont guidées par des valeurs de :
+                    </p>
+                </div>
+            </div>
 
             <div class="row">
-                <div class="col-xl-3 col-lg-3">
+                <div class="col-xl-3 col-lg-4 col-md-6">
                     <h6>partage et de solidarité</h6>
 
                     <p style="text-align: justify;">
@@ -191,7 +197,7 @@
                 </div>
 
 
-                <div class="col-xl-3 col-lg-3">
+                <div class="col-xl-3 col-lg-4 col-md-6">
                     <h6>laïcité</h6>
 
                     <p style="text-align: justify;">
@@ -203,7 +209,7 @@
                     </p>
                 </div>
 
-                <div class="col-xl-3 col-lg-3">
+                <div class="col-xl-3 col-lg-4 col-md-6">
                     <h6>respect de la personne humaine</h6>
                     <p style="text-align: justify;">
                         Les actions de DOUVANJOU s’inscrivent dans le respect de la dignité
@@ -217,7 +223,7 @@
                     </p>
                 </div>
 
-                <div class="col-xl-3 col-lg-3">
+                <div class="col-xl-3 col-lg-4 col-md-6">
                     <h6>lutte contre les inégalités</h6>
 
                     <p style="text-align: justify;">
@@ -240,7 +246,7 @@
                 </div>
 
 
-                <div class="col-xl-3 col-lg-3">
+                <div class="col-xl-3 col-lg-4 col-md-6">
                     <h6>éco-responsabilité</h6>
 
                     <p style="text-align: justify;">
@@ -253,7 +259,7 @@
                     </p>
                 </div>
 
-                <div class="col-xl-3 col-lg-3">
+                <div class="col-xl-3 col-lg-4 col-md-6">
                     <h6>La quête de l’excellence</h6>
 
                     <p style="text-align: justify;">
@@ -270,10 +276,10 @@
             <h5>Notre histoire</h5>
 
             <p style="text-align: justify;">
-            Notre association est créée au lendemain du séisme du 14 aout 2021.
-Après les premières semaines d’effroi, d’émoi et de tristesse, notre
-réflexion nous a conduit à envisager des actions sur le long terme
-sans minimiser le travail de ceux qui agissent dans l’urgence.
+                Notre association est créée au lendemain du séisme du 14 aout 2021.
+                Après les premières semaines d’effroi, d’émoi et de tristesse, notre
+                réflexion nous a conduit à envisager des actions sur le long terme
+                sans minimiser le travail de ceux qui agissent dans l’urgence.
             </p>
         </div>
     </div>

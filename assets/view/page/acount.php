@@ -4,7 +4,7 @@
 
 
 <section class="content-page before-page container-fluid">
-    <h1>Espace des membres adhérennts</h1>
+    <h1 class="text-center bgd-fade p-3 text-blue" style="text-transform: uppercase; font-weight: normal; font-size: 200%;">Espace des membres adhérennts</h1>
 </section>
 
 
