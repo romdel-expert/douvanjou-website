@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost:8889
--- Generation Time: Feb 28, 2022 at 07:51 AM
+-- Generation Time: May 30, 2022 at 10:19 AM
 -- Server version: 5.7.30
 -- PHP Version: 7.4.9
 
@@ -35,6 +35,25 @@ CREATE TABLE `company` (
   `web_ste` varchar(255) DEFAULT NULL,
   `id_user` bigint(20) UNSIGNED NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `config`
+--
+
+CREATE TABLE `config` (
+  `id` int(11) UNSIGNED NOT NULL,
+  `price_commit` decimal(10,2) NOT NULL DEFAULT '0.00',
+  `desc_conf` text NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+--
+-- Dumping data for table `config`
+--
+
+INSERT INTO `config` (`id`, `price_commit`, `desc_conf`) VALUES
+(1, '20.00', '');
 
 -- --------------------------------------------------------
 
@@ -92,6 +111,7 @@ CREATE TABLE `person` (
   `id_pers` bigint(20) UNSIGNED NOT NULL,
   `f_name` varchar(255) DEFAULT NULL,
   `l_name` varchar(255) DEFAULT NULL,
+  `sex` varchar(16) DEFAULT NULL,
   `profession` varchar(255) DEFAULT NULL,
   `id_user` bigint(20) UNSIGNED DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
@@ -210,6 +230,9 @@ CREATE TABLE `user` (
   `password` varchar(255) DEFAULT NULL,
   `date_add` datetime NOT NULL DEFAULT CURRENT_TIMESTAMP,
   `date_edit` datetime NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  `acpt_rglt_int` tinyint(1) NOT NULL DEFAULT '0',
+  `date_exp` datetime NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  `payed` tinyint(1) NOT NULL DEFAULT '0',
   `type` bigint(20) UNSIGNED DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
@@ -223,6 +246,12 @@ CREATE TABLE `user` (
 ALTER TABLE `company`
   ADD PRIMARY KEY (`id_comp`),
   ADD KEY `fh_type_company_of_user` (`id_user`);
+
+--
+-- Indexes for table `config`
+--
+ALTER TABLE `config`
+  ADD PRIMARY KEY (`id`);
 
 --
 -- Indexes for table `don`
@@ -306,6 +335,12 @@ ALTER TABLE `company`
   MODIFY `id_comp` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT;
 
 --
+-- AUTO_INCREMENT for table `config`
+--
+ALTER TABLE `config`
+  MODIFY `id` int(11) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+
+--
 -- AUTO_INCREMENT for table `don`
 --
 ALTER TABLE `don`
@@ -327,7 +362,7 @@ ALTER TABLE `history`
 -- AUTO_INCREMENT for table `person`
 --
 ALTER TABLE `person`
-  MODIFY `id_pers` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=305;
+  MODIFY `id_pers` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT;
 
 --
 -- AUTO_INCREMENT for table `project`
@@ -363,7 +398,7 @@ ALTER TABLE `type_user`
 -- AUTO_INCREMENT for table `user`
 --
 ALTER TABLE `user`
-  MODIFY `id_user` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
+  MODIFY `id_user` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT;
 
 --
 -- Constraints for dumped tables
