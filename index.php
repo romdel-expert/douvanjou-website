@@ -73,8 +73,8 @@
     
   } catch (Exception $e) {
 
-    $message=$e->getMessage();
-    sendError($message);
+    // $message=$e->getMessage();
+    sendError("Error");
 
   }
 
