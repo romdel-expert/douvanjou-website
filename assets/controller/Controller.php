@@ -277,6 +277,16 @@
 
             if ($idNewUser != null) {
 
+                $to=$email;
+                $subject="Confirmation de votre inscription";
+                $message="Bonjour $sex $lName,"
+                        ."<br/><br/>"
+                        ."L'Association Douvanjou a le plaisir de vous confirmer que votre inscription a bien été enregistrée et vous souhaite la bienvenue parmi nous.<br/><br/>"
+                        ."L'accès à votre espace personnel et bien d'autres fonctionnalités seront bientôt disponibles car notre site en cours de création.<br/><br/>"
+                        ."L'équipe de Douvanjou";
+
+                sendContactMail($to, $subject, $message);
+                
                 setcookie("idUser", $idNewUser,time()+3600*1, '/', '', true, true);
 
                 
@@ -363,6 +373,17 @@
 
     function payCommitController($idUser){
         payCommitModele($idUser);
+    }
+
+
+
+
+
+    function getListMemberController(){
+        
+        $listUsers = getListMemberModel();
+
+        require "./assets/view/page/list_member.php";
     }
 
 

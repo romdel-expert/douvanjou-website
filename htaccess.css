@@ -1,0 +1,3 @@
+/* RewriteEngine on
+RewriteCond %{HTTP:X-Forwarded-Proto} !https
+RewriteRule (.*) https://www.douvanjou-asso.fr [R=301,L] */

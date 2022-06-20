@@ -234,4 +234,28 @@
             $db->close();
         }
     }
+
+
+
+
+
+
+    function getListMemberModel(){
+
+        $listUser = null;
+
+        $query="SELECT u.*, p.* FROM user u, person p WHERE p.id_user = u.id_user";
+        $db=connecDb();
+
+        $result=mysqli_query($db, $query) or die(mysqli_error($db).$query);
+        if ($result->num_rows>0) {
+            for ($i=0; $i < $result->num_rows; $i++) { 
+                $result->data_seek($i);
+                $listUser[] = $result->fetch_assoc();
+            }
+        }
+        $db->close();
+
+        return $listUser;
+    }
 ?>

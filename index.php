@@ -9,7 +9,9 @@
 
   try {
     if (isset($_GET['action'])) {
+
       $action=$_GET['action'];
+      
       if ($action=="home") {
 
         gotoHomePage();
@@ -57,9 +59,14 @@
         gotoFormSubsCollaborateur();
         
       }elseif ($action=="success_sub") {
+
         gotoSuccessSubscribe();
       }elseif ($action=="pay_page") {
+
         gotoPayPage();
+      } elseif ($action == "list_member") {
+
+        getListMemberController();
       } else {
 
         gotoHomePage();
