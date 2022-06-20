@@ -287,7 +287,7 @@
 
                 sendContactMail($to, $subject, $message);
                 
-                setcookie("idUser", $idNewUser,time()+3600*1, '/', '', true, true);
+                // setcookie("idUser", $idNewUser,time()+3600*1, '/', '', true, true);
 
                 
                 require_once './assets/view/page/payPage.php';
